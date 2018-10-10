@@ -1,0 +1,110 @@
+body html{
+	margin: 0;
+	padding: 0;
+}
+.bgimg{
+	background: url('../images/social1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 660px;
+    width: 100%;
+
+     
+}
+.dark{
+	position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+min-height: 660px;
+background-color: rgba(0,0,0,0.7);
+
+}
+.head{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.section h1{
+	font-weight: bold;
+	font-size: 50px;
+}
+.row-seting{
+   margin: 80px 0px;
+}
+.row-seting p{
+padding: 10px;
+color: #6c757d;
+}
+.row-seting h2{
+padding: 10px;
+font-weight: bold;
+
+}
+.portifolio h1{
+  font-weight: bold;
+	font-size: 50px;
+}
+.imgseting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-shopping-cart {
+	margin-top: 25px;
+}
+.fa-desktop {
+	margin-top: 25px;
+}
+.fa-lock {
+	margin-top: 25px;
+}
+.img-set{
+	width: 100%;
+}
+
+.card{
+	margin-top: 40px;
+}
+.card1{
+	height: 100%;
+}
+.team{
+	margin-top: 50px;
+	height: 500px;
+}
+
+.team h2{
+	font-weight: bold;
+	font-size: 50px;
+}
+.team-set{
+	margin-top: 50px;
+}
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 50px;
+}
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px)and (max-width: 991px){
+	
+}
+@media(min-width: 575px)and(max-width: 767){
+	
+}
+@media(min-width: 460px)and(max-width: 574){
+	.section{
+	
+	height: 1200px;
+}
+.portifolio{
+	height: 2700px;
+}
+.team{
+	height: 1400px;
+}
+}
